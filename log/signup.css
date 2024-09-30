@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,400;0,500;1,400&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  box-sizing: border-box;
+}
+
+/* --------------------NAVBAR----------------------------- */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  padding: 20px;
+  letter-spacing: 2px;
+  box-shadow: 2px 2px 26px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+  margin: 15px 20px;
+  margin-bottom: 30px;
+}
+
+.left li a {
+  font-weight: bold;
+  color: #44115b;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-decoration-color: #44115b;
+  text-decoration-thickness: 5px;
+  text-underline-offset: 10px;
+}
+
+.right {
+}
+li {
+  list-style: none;
+  display: inline;
+}
+
+li a {
+  text-decoration: none;
+  padding: 30px 20px;
+  color: black;
+}
+
+/* --------------------Signup--------------------------- */
+
+.containerSignup {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  height: 800px;
+  /* align-items: center; */
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 1px 1cap 26px 0px rgba(0, 0, 0, 0.75);
+
+}
+h1 {
+  text-align: center;
+  color: #44115b;
+}
+.fullname,
+.collection {
+  margin: 10px 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.firstnameDiv,
+.lastnameDiv,
+.ageDiv,
+.genderDiv {
+  width: 45%;
+}
+
+input,
+#selectGender {
+  padding: 8px;
+  width: 100%;
+  margin: 10px 0;
+  font-size: 15px;
+}
+
+.emailDiv,
+.contactNoDiv,
+.usernameDiv,
+.passwordDiv {
+  margin: 10px 50px;
+}
+
+#submitSignup {
+  width: 300px;
+  width: 30%;
+  height: 40px;
+  color: white;
+  border: none;
+  letter-spacing: 2px;
+  opacity: 0.8;
+  background-color: #44115b;
+}
+
+#submitSignup:hover {
+  opacity: 1;
+}
+
+.submitSignupDiv {
+  margin: 20px 0;
+}
